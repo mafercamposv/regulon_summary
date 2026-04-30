@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "regulon-summary"
+version = "0.1.0"
+description = "Data analysis project for regulatory networks"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+    "flake8>=6.0",
+]
+
+[tool.setuptools]
+packages = ["regulon_summary"]
