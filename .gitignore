@@ -13,3 +13,6 @@ ENV/
 .idea/
 *.swp
 *.swo
+
+# Build artifacts
+*.egg-info/

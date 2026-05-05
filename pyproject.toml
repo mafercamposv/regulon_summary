@@ -7,7 +7,7 @@ name = "regulon-summary"
 version = "0.1.0"
 description = "Data analysis project for regulatory networks"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.8.1"
 dependencies = [
     "pandas>=2.0",
     "numpy>=1.24",
@@ -21,4 +21,4 @@ dev = [
 ]
 
 [tool.setuptools]
-packages = ["regulon_summary"]
+# packages = ["regulon_summary"]
