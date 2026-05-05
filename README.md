@@ -2,6 +2,7 @@
 
 Data analysis project for regulatory networks.
 
+
 ## Setup
 
 1. Create a virtual environment:
@@ -24,3 +25,4 @@ python main.py
 
 - `main.py` - Main entry point
 - `NetworkRegulatorGene.tsv` - Input data
+- `data/` - Additional datasets and raw input files
